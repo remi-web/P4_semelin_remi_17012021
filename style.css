@@ -56,6 +56,10 @@ a:hover {
     font-size: 1.3em;
 }
 
+#fourchettes-link{
+    text-decoration:underline #F3976C;
+}
+
 .bloc-sm {
     padding: 20px 50px;
 }
@@ -199,7 +203,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0 / 55%);
 }
 
 .d-bloc .panel button:hover,
@@ -788,7 +792,6 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1036,15 +1039,73 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 700px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+
+    .social{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .row.row-no-gutters > [class^="col-"],
+    .row.row-no-gutters > [class*=" col-"] {
+    margin-left: 14%;
+    margin-bottom: 5%
+    }
+
+    .row{
+        margin-left: -2%;
+    }
+
+    .portfolio-thumb{
+        margin-left: 5%;
+        padding-right: 9%;
+    }
+
+    #p-description{
+        padding-left: 0%;
+    }
+
+    #citation{
+        margin-right: 2%;
     }
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+}
+
+@media (min-width:700px){
+    .row{
+        display: contents;
+    }
+
+    .col-sm-3{
+        margin-bottom: 5%;
+    }
+
+    .col-sm-6{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+   
+}
+
+@media (min-width:600px){
+
+    .row{
+        margin-left: initial;
+    }
+
+    .img-smaller{
+        width: 455px;
+        height: 455px;
     }
 }
