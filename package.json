@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "install": "^0.13.0",
+    "minifier": "^0.8.1",
+    "npm": "^6.14.11",
+    "prerender-node": "^3.2.5",
+  }
+}
