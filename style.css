@@ -748,7 +748,7 @@ h4 {
 }
 
 .white {
-    color: #F5F5F5!important;
+    color: rgba(0,0,0,.5)!important;
 }
 
 .portfolio-thumb {
