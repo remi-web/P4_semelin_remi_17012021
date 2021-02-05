@@ -59,7 +59,9 @@ a:hover {
 #fourchettes-link{
     text-decoration:underline #F3976C;
 }
-
+#fourchettes-link:hover{
+    font-weight: bolder ;
+}
 .bloc-sm {
     padding: 20px 50px;
 }
@@ -344,7 +346,15 @@ a:hover {
 .nav > li a:focus {
     background: transparent;
 }
-
+.menu{
+    border-bottom: solid;
+    border-bottom-color: transparent;
+}
+.menu:hover{
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #C54E1B;
+}
 .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0px;
@@ -787,11 +797,12 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #F6CEB6!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    color: #FFFFFF;
+    background: #C54E1B;
 }
 
 .btn-atomic-tangerine:hover {
